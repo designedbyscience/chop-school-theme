@@ -1,6 +1,6 @@
 /*   
-Theme Name: The HTML5 Reset Theme
-Theme URI: http://school.choppingblock.com/reset-theme
+Theme Name: Chop School Theme
+Theme URI: http://school.choppingblock.com/theme
 Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
 Author: The Chopping Block, based on work by Monkey Do!
 Author URI: http://choppingblock.com
@@ -240,9 +240,52 @@ mark {
 
 /* And here begins the Wordpress fun.
 -------------------------------------------------------------------------------*/
-#page-wrap {
+.page-wrap {
   width: 960px;
   margin: 20px auto; }
+
+
+.header{
+	border-bottom: 1px solid #000;
+	margin-bottom: 10px;
+}
+
+.left-column{
+	float: left;
+}
+
+
+.center-column{
+	float: left;
+
+}
+
+.right-column{
+	float: right;
+}
+
+
+.footer{
+	position: absolute;
+	bottom: 0;
+}
+
+.entry-content ul{
+	padding-left: 40px;
+}
+
+.entry-content li{
+	list-style: disc;	
+}
+
+.entry-content .meta, .postmetadata{
+	margin-top: 10px;
+}
+
+
+
+
+
 
 ol.commentlist {
   list-style: none; }
