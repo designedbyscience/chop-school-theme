@@ -257,11 +257,12 @@ mark {
 
 .center-column{
 	float: left;
-
+	width: 700px;
 }
 
 .right-column{
 	float: right;
+	width: 250px;
 }
 
 
